@@ -1,0 +1,23 @@
+{
+  "name": "backend-main",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.1"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
